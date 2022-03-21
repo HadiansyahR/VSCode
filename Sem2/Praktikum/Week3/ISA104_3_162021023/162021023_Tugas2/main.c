@@ -1,3 +1,9 @@
+/*
+Program  : Tugas 2
+NRP-Nama : 162021023 - Muhammad Hadiansyah Rabbani
+Tanggal  : 12-03-2022
+Praktikum: [3]-[Struct dan ADT]
+*/
 #include <stdio.h>
 #include "body.c"
 
