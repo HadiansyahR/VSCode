@@ -19,6 +19,7 @@ typedef struct
 }bdatar;
 
 void headmenu();
+int pilihmenu();
 void menu(bdatar bdt);
 bdatar input(int pil);
 void luasL(bdatar lingk);
