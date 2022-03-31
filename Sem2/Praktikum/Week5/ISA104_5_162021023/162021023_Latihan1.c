@@ -38,6 +38,6 @@ int main(){
     printf("Sorted list in ascending order:\n");
     for (c = 0; c < n; c++)
     {
-        printf("%d", nilai[c].array);
+        printf("%d ", nilai[c].array);
     }
 }
