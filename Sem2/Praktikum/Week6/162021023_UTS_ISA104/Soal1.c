@@ -5,7 +5,7 @@ Saya berjanji tidak melakukan kecurangan pada ujian ini.
 */
 #include <stdio.h>
 #include <string.h>
-
+#include <stdlib.h>
 int i;
 
 typedef struct mahasiswa
@@ -16,6 +16,7 @@ typedef struct mahasiswa
 }data;
     
 int main(){
+    system("cls");
     float ip;
     int totalsks = 0, totaljmlbobot = 0, n, sksambil;
 
@@ -68,21 +69,21 @@ int main(){
 
     ip = (float)totaljmlbobot/(float)totalsks;
 
-    printf("\n|===================================================================================|\n");
-    printf("|%-20s|%-25s|%-3s|%-12s|%-6s|%-12s|\n", "Kode Mata Kuliah", "Nama Mata Kuliah", "SKS", "Indeks Nilai", "Bobot", "Jumlah Bobot");
-    printf("|===================================================================================|\n");
+    printf("\n|=============================================================================================|\n");
+    printf("|%-20s|%-35s|%-3s|%-12s|%-6s|%-12s|\n", "Kode Mata Kuliah", "Nama Mata Kuliah", "SKS", "Indeks Nilai", "Bobot", "Jumlah Bobot");
+    printf("|=============================================================================================|\n");
     for (i = 0; i < n; i++)
     {
-        printf("|%-20s|%-25s|%-3d|%-12c|%-6d|%-12d|\n", dt[i].kodeMK, dt[i].namaMK, dt[i].sks, dt[i].indeks, dt[i].bobot, dt[i].jmlbobot);
+        printf("|%-20s|%-35s|%-3d|%-12c|%-6d|%-12d|\n", dt[i].kodeMK, dt[i].namaMK, dt[i].sks, dt[i].indeks, dt[i].bobot, dt[i].jmlbobot);
     }
-    printf("|===================================================================================|\n");
+    printf("|=============================================================================================|\n");
 
     printf("\nTotal Jumlah Bobot: %d\nTotal SKS: %d\nIP: %.1f\n", totaljmlbobot, totalsks, ip);
     
     if (ip >= 3.00){
         sksambil = 24;
     }
-    else if (ip < 3.00 && ip > 2.00){
+    else if (ip < 3.00 && ip >= 2.00){
         sksambil = 20;
     }
     else{

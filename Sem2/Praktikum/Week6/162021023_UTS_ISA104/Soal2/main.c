@@ -6,6 +6,7 @@ Saya berjanji tidak melakukan kecurangan pada ujian ini.
 #include "body.c"
 
 int main(){
+    system("cls");
     int n;
     
     printf("Masukkan jumlah data: ");

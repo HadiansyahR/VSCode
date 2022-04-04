@@ -6,7 +6,6 @@ Saya berjanji tidak melakukan kecurangan pada ujian ini.
 
 #ifndef head
 #define head
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
