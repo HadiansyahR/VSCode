@@ -69,6 +69,7 @@ int main(){
         }
         dt[i].jmlbobot = dt[i].sks * dt[i].bobot;
     }
+
     printf("Hasil pencarian\n");
     printf("=============================================\n");
     printf("|%-20s|%-3s|%-5s|%-12s|\n", "Kode Mata Kuliah", "SKS", "Nilai", "Jumlah Bobot");
@@ -79,5 +80,6 @@ int main(){
             printf("|%-20s|%-3d|%-5c|%-12d|\n", dt[i].kodeMK, dt[i].sks, dt[i].indeks, dt[i].jmlbobot);
     }
     printf("=============================================\n");
+    
     return 0;
 }

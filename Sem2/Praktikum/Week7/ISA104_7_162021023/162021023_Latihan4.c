@@ -6,17 +6,39 @@ Praktikum: [7]-[Searching]
 */
 
 #include <stdio.h>
-#include <string.h>
+long linear_search(long[], long, long);
+
 
 int main(){
-    char str[] = "teacher teach tea";
-    char search[] = "ac";
-    char *ptr = strstr(str, search);
+    long array[100], search, c, n, position;
 
-    if(ptr != NULL)
-        printf("'%s' Contains '%s'\n", str, search);
+    printf("Enter Number Of Elements In Array\n");
+    scanf("%ld", &n);
+
+    printf("Enter %d Numbers\n", n);
+
+    for (c = 0; c < n; c++)
+        scanf("%ld", &array[c]);
+
+    printf("Enter a number to search\n");
+    scanf("%ld",&search);
+
+    position = linear_search(array, n, search);
+
+    if(position == -1)
+        printf("%d Isn't present in the array.\n", search);
     else
-        printf("'%s' Doesn't Contains '%s'\n", str, search);
-
+        printf("%d Is present At Location %d.\n", search, position+1);
     return 0;
+}
+
+long linear_search(long *pointer, long n, long find){
+    long c;
+    
+    for (c = 0; c < n; c++)
+    {
+        if (*(pointer+c) == find)
+            return c;
+    }
+        return -1;
 }

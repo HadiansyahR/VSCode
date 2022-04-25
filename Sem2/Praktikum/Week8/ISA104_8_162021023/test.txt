@@ -1,0 +1,7 @@
+Data (1/1):
+Kode Buku = 1234
+Judul Buku = asd
+Penulis Buku = a
+Penerbit Buku = s
+Jumlah Buku = 6
+

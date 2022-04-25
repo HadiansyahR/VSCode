@@ -9,21 +9,24 @@ Praktikum: [7]-[Searching]
 #include <string.h>
 
 int main(){
+
     int i, j, k, n, len;
     char last[3] = "\0";
 
     scanf("%d", &n);
+
     printf("\n");
+
     char array[n][30];
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i <= n; i++)
     {
-        scanf("%s", array[i]);
+        gets(array[i]);
     }
 
     printf("\n");
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i <= n; i++)
     {
         len = strlen(array[i]);
 
