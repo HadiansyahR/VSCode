@@ -1,0 +1,11 @@
+Nama Peminjam: Micel
+Indeks Buku: 2
+Judul Buku: Mein Kampf
+Penulis: Hitler
+Publisher: Gramedia
+ISBN: 12333
+Tahun Terbit: 2001
+Tanggal Peminjaman: 24-5-2022
+Durasi Pinjam: 7 hari
+
+Jika buku belum dikembalikan melewati durasi peminjaman maka peminjam akan dikenakan denda sebesar Rp. 2000,00.

@@ -1,0 +1,9 @@
+====================
+PENJUALAN BARANG
+====================
+Kode: 01234
+Tanggal: 25-07-2021
+Nama: Santet Elektrik
+Harga: 5000000
+Jumlah: 3
+Total: 15000000

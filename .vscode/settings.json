@@ -3,7 +3,8 @@
     "tugas2": "c",
     "stdio.h": "c",
     "head.h": "c",
-    "string.h": "c"
+    "string.h": "c",
+    "stdbool.h": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "C:\\MinGW\\bin\\gcc.exe",
   "C_Cpp_Runner.cppCompilerPath": "C:\\MinGW\\bin\\g++.exe",

@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch nomor3",
+      "request": "launch",
+      "mainClass": "Sem2.Praktikum.Kuis.nomor3",
+      "projectName": "VSCode_7725888b"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

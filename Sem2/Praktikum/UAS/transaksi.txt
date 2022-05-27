@@ -1,0 +1,21 @@
+Nama Peminjam: Micel
+Indeks Buku: 1
+Judul Buku: Laskar Pelangi
+Penulis: Andrea Hirata
+Publisher: Elex Media Komputindo
+ISBN: 12345
+Tahun Terbit: 2007
+Tanggal Peminjaman: 27-5-2022
+Durasi Pinjam: 7 hari
+
+Nama Peminjam: Micel
+Indeks Buku: 3
+Judul Buku: The Stranger
+Penulis: Albert Camus
+Publisher: Gramedia
+ISBN: 981237
+Tahun Terbit: 2012
+Tanggal Peminjaman: 27-5-2022
+Durasi Pinjam: 7 hari
+
+Jika buku belum dikembalikan melewati durasi peminjaman maka peminjam akan dikenakan denda sebesar Rp. 2000,00.
